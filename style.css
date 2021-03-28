@@ -1,0 +1,268 @@
+body{
+    /* background-color: hsl(237, 23%, 32%); */
+    background-color: #ffffff;
+    word-spacing: 2px;
+    color: hsl(207, 13%, 34%);
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 16px;
+    color: pointer;
+}
+h1,h2{
+    color: hsl(208, 49%, 24%);
+}
+ul{
+    list-style-type: none;
+}
+p{
+    line-height: 2em;
+    color: hsl(207, 13%, 34%);
+    font-family: 'Overpass', sans-serif;
+}
+header{
+    background-image: url(img/bg-pattern-intro.svg);
+    background-color:  hsl(13, 100%, 72%);
+    background-position: right;
+    background-repeat: repeat;
+    background-size: cover;
+    border-bottom-left-radius: 40px;
+
+   
+    
+}
+.head h1{
+    color: white;
+}
+.head p{
+    color: white;
+}
+.header{
+    padding: 20px auto;
+}
+a{
+    text-decoration: none;
+    color:white;
+    font-family: 'Overpass', sans-serif;
+}
+.login a{
+    padding: 15px;
+   
+}
+.red{
+    color: hsl(356, 100%, 66%);
+    background-color: white;
+
+}
+button{
+    width: 170px;
+    border: 1px solid white;
+     height: 40px;
+    padding: 30px auto;
+    border-radius: 20px;
+    outline: none;
+    font-weight: 900;
+    color: white;
+    background-color: transparent;
+}
+.logo{
+    color:white;
+    padding-top: 15px;
+    position: relative;
+    top: 7px;
+}
+.navbar{
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+    position: relative;
+    bottom: 50px;
+
+}
+.navbar ul{
+    list-style-type: none;
+    display: flex;
+    margin-left: 30px;
+    position: relative;
+    bottom: 30px;
+    
+}
+.navbar li{
+   padding: 15px;
+}
+.navbar img{
+    padding-left: 10px;
+}
+ .bar{
+     visibility: hidden;
+     display: inline;
+    
+}
+.close{
+    visibility: hidden;
+    color: white;
+   
+}
+
+
+.head{
+    text-align: center;
+    padding-bottom: 100px;
+}
+section h1{
+    text-align: center;
+}
+.content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.introcontent{
+    /* width: 50%; */
+    /* width: 50%; */
+    max-width: 50%;
+}
+.computer{
+    width: 500px;
+    max-width: 100%;
+    padding-top: 20px;
+}
+.img{
+    background-image: url(img/bg-pattern-circles.svg);
+    background-size: cover;
+    background-position-y: bottom;
+
+}
+.phone{
+    width: 400px;
+    max-width: 100%;
+ 
+}
+main{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color:  hsl(237, 17%, 21%);
+    border-top-right-radius:60px;
+    border-bottom-left-radius: 40px;
+    position: relative;
+    top: 20px;
+    max-width: 100%;
+    
+}
+.main h2{
+    color: white;
+}
+.main p{
+    color: white;
+}
+aside{
+    margin-top: 40px;
+    position: relative;
+    top: 40px;
+}
+.aside{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.laptop{
+    width: 600px;
+    /* max-width: 100%; */
+}
+.maincontent{
+    max-width: 50%;
+    padding-top: 30px;
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    flex-wrap: wrap;
+    position: relative;
+    top: 40px;
+    background-color: hsl(240, 10%, 16%);
+    border-top-right-radius: 50px;
+    color: hsl(240, 2%, 79%);
+}
+footer h1{
+    color: white;
+}
+ul .top{
+    padding-bottom: 15px;
+    font-weight: bold;
+}
+.foot li{
+    padding-top: 15px;
+
+}
+ @media screen and (max-width: 600px){
+    .navbar{
+        position: relative;
+        top: 10px;
+        border-radius: 30px;
+    }
+    .navbar ul{
+     display: none;
+ }
+ .login button{
+     background-color:hsl(356, 100%, 66%);
+     color: white;
+ }
+ .login{
+     display: none;
+ }
+ .login a{
+     color: hsl(356, 100%, 66%);
+ }
+  .bar{
+      color: white;
+       display: block;
+      float: right;
+       position: relative;
+       bottom: 55px;
+       right: 10px;
+       width: 60px;
+        
+       visibility: initial;
+       /* position: sticky;
+       left:100%;
+       bottom: 80%; */
+ }
+ .close{
+     visibility: hidden;
+      text-align: right;
+      display: block;
+      position: relative;
+      bottom: 60px;
+      color: white;
+ }
+ .introcontent{
+     max-width: 100%;
+ }
+ .main{
+     width: 90%;
+ }
+ .computer{
+     max-width: 100%;
+ }
+ .laptop{
+     max-width: 100%;
+ }
+ .maincontent{
+     max-width: 100%;
+ }
+ footer{
+     flex-direction: column;
+     justify-content: center;
+     /* align-items: center; */
+ }
+}

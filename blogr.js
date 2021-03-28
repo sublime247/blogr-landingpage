@@ -1,0 +1,43 @@
+const bars= document.querySelector('.bar')
+const navbar=document.querySelector('.navbar')
+const login = document.querySelector('.login')
+const navs =document.querySelector('.navs')
+const header=document.querySelector('header')
+const logo =document.querySelector('.logo')
+const content=document.querySelector('.head')
+const close=document.querySelector('.close')
+const a= document.querySelector('.a')
+const b= document.querySelector('.b')
+const c= document.querySelector('.c')
+bars.addEventListener('click', e=>{
+//    content.style.visibility='hidden'
+    logo.style.display='inline-block'
+    logo.style.textAlign='center'
+    navs.style.display='flex'
+    navs.style.flexDirection='column'
+    login.style.display='block'
+    navbar.style.position='sticky'
+    navbar.style.left='10%'
+    navbar.style.padding='30px'
+    navbar.style.width='300px'
+    navbar.style.maxwidth='100%'
+    navbar.style.backgroundColor='white'
+    navbar.style.display='block'
+    navbar.style.textAlign='center'
+    a.style.color='black'
+    b.style.color='black'
+    c.style.color='black'
+    bars.style.display='none'
+    close.style.position='relative'
+    close.style.bottom='310px'
+    close.style.right='15px'
+    close.style.visibility='initial'
+    // bars.style.visibility='inherit'
+});
+close.addEventListener('click', e=>{
+    navbar.style.display='none'
+     bars.style.visibility='inherit'
+
+    // navs.style.display='none'
+    // login.style.display='none'
+});
