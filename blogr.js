@@ -36,8 +36,6 @@ bars.addEventListener('click', e=>{
 });
 close.addEventListener('click', e=>{
     navbar.style.display='none'
-     bars.style.visibility='inherit'
-
-    // navs.style.display='none'
-    // login.style.display='none'
+     bars.style.display='block'
+     bars.style.visibility='initial'
 });

@@ -52,6 +52,9 @@ a{
     background-color: white;
 
 }
+button.red:hover{
+    background-color: transparent;
+}
 button{
     width: 170px;
     border: 1px solid white;
@@ -62,6 +65,14 @@ button{
     font-weight: 900;
     color: white;
     background-color: transparent;
+}
+.head .btn2{
+    margin-top: 10px;
+    
+}
+.head .btn2:hover{
+    background-color: white;
+    color: hsl(356, 100%, 66%);
 }
 .logo{
     color:white;
